@@ -1,0 +1,604 @@
+			/*PÁGINA 01:*/
+body{
+	background-color: black;
+	margin: 0;
+ padding-top: 70px; /* ajusta conforme a altura da navbar */
+}
+
+.nav-bar{
+ position: fixed;     /* fixa no topo */
+ top: 0;              /* encosta no topo */
+ left: 0;
+ width: 100%;         /* ocupa 100% da tela */
+ background-color: #b30000; /* vermelho do seu exemplo */
+ padding: 30px 0;
+ text-align: center;
+ z-index: 1000;       /* garante que fique por cima do conteúdo */
+ box-shadow: 0px 4px 8px darkred;
+}
+
+.div-dos-botoes{
+	display: flex;
+ justify-content: center; /* alinha horizontalmente */
+ align-items: center;     /* alinha verticalmente */
+ gap: 20px;               /* espaço entre os botões */
+}
+
+div a{
+	font-family: "BBH Sans Bogle", sans-serif;
+	font-size: 20px;
+	color: white;
+	text-decoration: none;
+	margin: 0 20px;
+	font-weight: bold;
+}
+
+.logo{
+	position: absolute;
+	width: 130px;
+	height: 120px;
+	left: 30px;
+	top: 10px	;
+}
+
+.titulo{
+	position: absolute;
+	color: white;
+	font-size: 40px;
+	top: 100px;
+	left: 30px; 	
+}
+
+.texto1{
+	position: absolute;
+	color: white;
+	font-size: 20px;
+	top: 220px;
+	left: 25px;
+	font-family: "Poppins", sans-serif;
+	font-weight: 100;
+	z-index: 2;
+}
+
+.professor{
+	position: absolute;
+	height: 500px;
+	width: 350px;
+	top: 150px;
+	left: 555px;
+	box-shadow: 0px 0px 30px #b30000;
+	z-index: 1;
+}
+
+.slogan{
+	position: absolute;
+	color: white;
+	font-size: 80px;
+	top: 50px;
+	left: 930px;
+	text-shadow: 0px 0px 5px white;
+}
+
+.instrutor{
+	position: absolute;
+	top: 550px;
+	left: 930px;
+	background-color: transparent; /* tira o fundo */
+ color: #b30000;                /* cor do texto */
+ border: 2px solid #b30000;     /* cor e espessura da borda */
+ padding: 10px 20px;            /* espaço interno */
+ border-radius: 5px;            /* cantos arredondados */
+ cursor: pointer;               /* muda o cursor */
+ font-weight: bold;
+ transition: 0.3s;              /* suaviza o hover */
+ padding: 20px 45px; /* cima/baixo - lados */
+ box-shadow: 0px 0px 10px #b30000;
+}
+
+.instrutor-a{
+	color: #b30000;
+	font-size: 25	px;
+}
+
+.texto2{
+	position: absolute;
+	color: white;
+	font-size: 22px;
+	top: 400px;
+	left: 930px;
+	font-family: "Poppins", sans-serif;
+	font-weight: 100;
+}
+
+	/*PÁGINA 02:*/
+
+.aula{
+	position: absolute;
+	top: 700px;
+	left: 80px;
+	width: 430px;
+	height: 250px;
+	z-index: 2;
+	border: 2px solid darkred;
+}
+
+.turma{
+	position: absolute;
+	top: 980px;
+	left: 80px;
+	width: 430px;
+	height: 250px;
+	z-index: 2;
+	border: 2px solid darkred;
+}
+
+.luta{
+	position: absolute;
+	height: 530px;
+	width: 380px;
+	top: 700px;
+	left: 530px;
+	z-index: 2;
+	border: 2px solid darkred;
+}
+
+.btn-sobre{
+	position: absolute;
+	top: 550px;
+	left: 650px;
+	border: 2px solid darkred;
+}
+
+.borro{
+	position: absolute;
+	top: 230px;
+	left: -30px;
+	opacity: 60%;
+	z-index: 1;
+}
+
+.mestre{
+	position: absolute;
+	color: white;
+	font-size: 35px;
+	top: 660px;
+	left: 930px; 		
+}
+
+.texto-pag2{
+	position: absolute;
+	top: 730px;
+	left: 930px;
+	color: white;
+	font-family: "Poppins", sans-serif;
+	font-weight: 100;
+	font-size: 20px;
+	z-index: 2;
+}
+
+/*PÁGINA 02*/
+
+.btn-unidades{
+	position: absolute;
+	top: 1200px;
+	left: 650px;
+}
+.unidades{
+	position: absolute;
+	color: white;
+	font-size: 35px;
+	top: 1320px;
+	left: 30px; 		
+}
+ 		
+#end1{
+	position: absolute;
+	color: white;
+	font-size: 30px;
+	top: 1380px;
+	left: 60px; 	
+	font-family: "Poppins", sans-serif;	
+}
+
+#txt-end1{
+	position: absolute;
+	color: white;
+	font-size: 20px;
+	top: 1430px;
+	left: 60px; 		
+	font-family: "Poppins", sans-serif;	
+}
+
+.btn-end1{
+	position: absolute;
+	top: 1510px;
+	left: 60px;
+	background-color: darkred; /* tira o fundo */
+ color: white;                /* cor do texto */
+ border: 2px solid darkred;     /* cor e espessura da borda */
+ padding: 10px 20px;            /* espaço interno */
+ border-radius: 5px;            /* cantos arredondados */
+ cursor: pointer;               /* muda o cursor */
+ font-weight: bold;
+ transition: 0.3s;              /* suaviza o hover */
+ padding: 20px 45px; /* cima/baixo - lados */
+ 	box-shadow: 0px 0px 10px #b30000;
+ 	z-index: 2;
+}
+
+.a-end1{
+	color: white;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+#end2{
+	position: absolute;
+	color: white;
+	font-size: 30px;
+	top: 1560px;
+	left: 60px; 	
+	font-family: "Poppins", sans-serif, bold;	
+}
+
+#txt-end2{
+	position: absolute;
+	color: white;
+	font-size: 20px;
+	top: 1610px;
+	left: 60px; 		
+	font-family: "Poppins", sans-serif;	
+}
+
+.btn-end2{
+	position: absolute;
+	top: 1655px;
+	left: 60px;
+	background-color: darkred; /* tira o fundo */
+ color: white;                /* cor do texto */
+ border: 2px solid darkred;     /* cor e espessura da borda */
+ padding: 10px 20px;            /* espaço interno */
+ border-radius: 5px;            /* cantos arredondados */
+ cursor: pointer;               /* muda o cursor */
+ font-weight: bold;
+ transition: 0.3s;              /* suaviza o hover */
+ padding: 20px 45px; /* cima/baixo - lados */
+ 	box-shadow: 0px 0px 10px #b30000;
+}
+
+.a-end2{
+	color: white;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+#end3{
+	position: absolute;
+	color: white;
+	font-size: 30px;
+	top: 1730px;
+	left: 60px; 	
+	font-family: "Poppins", sans-serif, bold;	
+}
+
+#txt-end3{
+	position: absolute;
+	color: white;
+	font-size: 20px;
+	top: 1780px;
+	left: 60px; 		
+	font-family: "Poppins", sans-serif;	
+}
+
+.btn-end3{
+	position: absolute;
+	top: 1830px;
+	left: 60px;
+	background-color: darkred; /* tira o fundo */
+ color: white;                /* cor do texto */
+ border: 2px solid darkred;     /* cor e espessura da borda */
+ padding: 10px 20px;            /* espaço interno */
+ border-radius: 5px;            /* cantos arredondados */
+ cursor: pointer;               /* muda o cursor */
+ font-weight: bold;
+ transition: 0.3s;              /* suaviza o hover */
+ padding: 20px 45px; /* cima/baixo - lados */
+ 	box-shadow: 0px 0px 10px #b30000;
+}
+
+.a-end3{
+	color: white;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+.trofeus{
+	position: absolute;
+	top: 1360px;
+	left: 695px;
+	width: 400px;
+	height: 400px;
+	z-index: 1;
+	border: 2px solid darkred;
+}
+
+.base{
+	position: absolute;
+	top: 1360px;
+	left: 1110px;
+	width: 380px;
+	height: 400px;
+	z-index: 1;
+	border: 2px solid darkred;
+}
+
+/*PÁGINA 04*/
+
+.ft-vinicius{
+	position: absolute;
+	height: 500px;
+	width: 350px;
+	top: 2100px;
+	left: 50px;
+	box-shadow: 0px 0px 30px #b30000;
+}
+
+.contatos{
+	position: absolute;
+	color: white;
+	font-size: 40px;
+	top: 2060px;
+	left: 460px; 	
+	z-index: 2;	
+}
+
+.whats{
+	position: absolute;
+	color: white;
+	font-size: 30px;
+	top: 2170px;
+	left: 460px; 		
+	font-family: "Poppins", sans-serif;	
+}
+
+.btn-whats{
+	position: absolute;
+	top: 2240px;
+	left: 460px;
+	background-color: darkred; /* tira o fundo */
+ color: white;                /* cor do texto */
+ border: 2px solid darkred;     /* cor e espessura da borda */
+ padding: 10px 20px;            /* espaço interno */
+ border-radius: 5px;            /* cantos arredondados */
+ cursor: pointer;               /* muda o cursor */
+ font-weight: bold;
+ transition: 0.3s;              /* suaviza o hover */
+ padding: 20px 45px; /* cima/baixo - lados */
+ box-shadow: 0px 0px 10px #b30000;
+}
+
+.a-whats{
+	color: white;
+	font-size: 25	px;
+	text-decoration: none;
+}
+
+.insta{
+	position: absolute;
+	color: white;
+	font-size: 30px;
+	top: 2310px;
+	left: 460px; 		
+	font-family: "Poppins", sans-serif;	
+}
+
+.btn-insta{
+	position: absolute;
+	top: 2380px;
+	left: 460px;
+	background-color: darkred; /* tira o fundo */
+ color: white;                /* cor do texto */
+ border: 2px solid darkred;     /* cor e espessura da borda */
+ padding: 10px 20px;            /* espaço interno */
+ border-radius: 5px;            /* cantos arredondados */
+ cursor: pointer;               /* muda o cursor */
+ font-weight: bold;
+ transition: 0.3s;              /* suaviza o hover */
+ padding: 20px 45px; /* cima/baixo - lados */
+ box-shadow: 0px 0px 10px #b30000;
+}
+
+.a-insta{
+	color: white;
+	font-size: 25	px;
+	text-decoration: none;
+}
+
+.port{
+	position: absolute;
+	color: white;
+	font-size: 30px;
+	top: 2450px;
+	left: 460px; 		
+	font-family: "Poppins", sans-serif;	
+}
+
+.btn-port{
+	position: absolute;
+	top: 2520px;
+	left: 460px;
+	background-color: darkred; /* tira o fundo */
+ color: white;                /* cor do texto */
+ border: 2px solid darkred;     /* cor e espessura da borda */
+ padding: 10px 20px;            /* espaço interno */
+ border-radius: 5px;            /* cantos arredondados */
+ cursor: pointer;               /* muda o cursor */
+ font-weight: bold;
+ transition: 0.3s;              /* suaviza o hover */
+ padding: 20px 45px; /* cima/baixo - lados */
+ box-shadow: 0px 0px 10px #b30000;
+}
+
+.a-port{
+	color: white;
+	font-size: 25	px;
+	text-decoration: none;
+}
+
+.logo-maior{
+	position: absolute;
+	width: 300px;
+	height: 290px;
+	left: 990px;
+	top: 2060px	;
+}
+
+.frase{
+	position: absolute;
+	color: white;
+	font-size: 65px;
+	top: 2300px;
+	left: 980px; 
+}
+
+
+.footer{ 
+	position: fixed;     /* fixa no topo */ 
+	top: 2800px;              /*encosta no topo */ 
+ left: 0; width: 100%;         /* ocupa 100% da tela */
+ background-color: #b30000; /* vermelho do seu exemplo */ 
+ padding: 20px 0;
+ text-align: center; 
+ z-index: 1000;       /* garante que fique por cima do conteúdo */ 
+ box-shadow: 0px 4px 8px darkred; 
+}
+
+.txt-footer{
+	color: white;
+	font-size: 15px;
+}
+
+.btn-contatos{
+	position: absolute;
+	top: 1940px;
+	left: 650px;
+	color: black;
+}
+
+	/*MEDIA QUERIES*/
+
+@media (max-width: 450px){
+/*PÁGINA 01:*/
+
+body{
+	background-color: black;
+	margin: 0;
+ padding-top: 60px; /* ajusta conforme a altura da navbar */
+}
+
+.nav-bar{
+ position: fixed;     /* fixa no topo */
+ top: 0;              /* encosta no topo */
+ left: -10px;
+ width: 100%;         /* ocupa 100% da tela */
+ background-color: #b30000; /* vermelho do seu exemplo */
+ padding: 20px 0;
+ text-align: center;
+ z-index: 1000;       /* garante que fique por cima do conteúdo */
+ box-shadow: 0px 4px 8px darkred;
+}
+
+.div-dos-botoes{
+	display: flex;
+ justify-content: center; /* alinha horizontalmente */
+ align-items: center;     /* alinha verticalmente */
+ gap: 20px;               /* espaço entre os botões */
+}
+
+div a{
+	font-family: "BBH Sans Bogle", sans-serif;
+	font-size: 20px;
+	color: white;
+	text-decoration: none;
+	margin: 0 20px;
+	font-weight: bold;
+}
+
+.logo{
+	position: absolute;
+	width: 130px;
+	height: 120px;
+	left: 30px;
+	top: 10px	;
+}
+
+.titulo{
+	position: relative;
+	color: white;
+	font-size: 20px;
+	top: 100px;
+	left: 30px; 	
+}
+
+.texto1{
+	position: absolute;
+	color: white;
+	font-size: 20px;
+	top: 220px;
+	left: 25px;
+	font-family: "Poppins", sans-serif;
+	font-weight: 100;
+	z-index: 2;
+}
+
+.professor{
+	position: absolute;
+	height: 500px;
+	width: 350px;
+	top: 150px;
+	left: 555px;
+	box-shadow: 0px 0px 30px #b30000;
+	z-index: 1;
+}
+
+.slogan{
+	position: absolute;
+	color: white;
+	font-size: 80px;
+	top: 50px;
+	left: 930px;
+	text-shadow: 0px 0px 5px white;
+}
+
+.instrutor{
+	position: absolute;
+	top: 550px;
+	left: 930px;
+	background-color: transparent; /* tira o fundo */
+ color: #b30000;                /* cor do texto */
+ border: 2px solid #b30000;     /* cor e espessura da borda */
+ padding: 10px 20px;            /* espaço interno */
+ border-radius: 5px;            /* cantos arredondados */
+ cursor: pointer;               /* muda o cursor */
+ font-weight: bold;
+ transition: 0.3s;              /* suaviza o hover */
+ padding: 20px 45px; /* cima/baixo - lados */
+ box-shadow: 0px 0px 10px #b30000;
+}
+
+.instrutor-a{
+	color: #b30000;
+	font-size: 25	px;
+}
+
+.texto2{
+	position: absolute;
+	color: white;
+	font-size: 22px;
+	top: 400px;
+	left: 930px;
+	font-family: "Poppins", sans-serif;
+	font-weight: 100;
+}
+
+}
